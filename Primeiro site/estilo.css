@@ -1,0 +1,138 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(232, 224, 109);
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    font: ;
+}
+
+img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: left;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding: 20px;
+}
+
+li{
+    width: 100%;
+    height: 100%;
+    align-items: left;
+    padding-left: 30px;
+ 
+ }
+
+h1{
+    width: 50%;
+    height: 100%;
+    align-items: left;
+    align-items: center;
+} */
+
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo */
+body {
+    background-color: rgb(232, 224, 109); /* Cor de fundo do corpo */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.6;
+}
+
+/* Estilizando o header */
+header {
+    width: 100%;
+    height: 300px; /* Ajusta a altura para o conteúdo */
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza itens horizontalmente */
+    padding: 20px;
+}
+
+/* Estilizando a imagem do logo */
+.logo {
+    display: flex;
+    justify-content: left; /* Centraliza a imagem horizontalmente */
+    width: 100%;
+    max-width: 100%;
+}
+
+.logo img {
+    width: auto; /* Permite o ajuste automático da largura */
+    max-width: 300px; /* Largura máxima da imagem */
+    height: auto;
+}
+
+/* Estilizando a navegação */
+.navbar {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinha itens verticalmente no centro */
+    justify-content: flex-end; /* Alinha os itens da lista à direita */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-left: 30px; /* Espaçamento entre os itens da lista */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor padrão dos links */
+    font-weight: bold; /* Deixa o texto dos links em negrito */
+}
+
+a:hover {
+    color: brown; /* Cor dos links quando passa o mouse */
+}
+
+/* Estilizando o título principal */
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center; /* Alinha o texto à esquerda */
+    margin: 10px 0; /* Espaçamento acima e abaixo */
+    width: 100%;
+}
+
+/* Estilizando o subtítulo (caso adicione um no futuro) */
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    text-align: left;
+}
+

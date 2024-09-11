@@ -1,0 +1,24 @@
+<?php
+
+//INSTANCIAR UM OBJETO
+
+
+Class Pessoa{
+    public $nome;
+    public $idade;
+
+    public function apresentar($nome,$idade){
+
+        $this-> nome = $nome;
+        $this-> idade = $idade;
+        
+            return "Nome: {this->nome}.<br> 
+            Idade: {this->idade} anos.";
+    }
+}
+
+//Instacia um objeto
+$grazi = new Pessoa
+
+//executa o método
+$grazi-> apresentar('Grazi Carassini',27)

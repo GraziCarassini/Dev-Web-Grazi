@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cadastro{
+    background-image: url(..//imagens1/istockphoto-692965404-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+
+.box{
+    width: 930px;
+    display: flex;
+    height: 700px;
+}
+.img-box{
+    background-color: rgba(255,255,255,0.5);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0 0 20px;
+}
+
+.img-box img{
+    height: 42%;
+    border-radius: 0 20px 0 20px;
+}
+
+.form-box{
+    background-color: rgba(255,255,255,0.5);
+    width: 50%;
+    backdrop-filter: blur(30px);
+    padding: 30px 40px;
+    border-radius: 0 20px 20px 0;
+}
+
+.form-box h2{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.form-box p{
+    font-size: 24px;
+    color: #3d3d3d;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-box a{
+    text-decoration: none;
+    color: blue;
+}
+
+.form-box form{
+    margin: 20px 0;
+    border: 2px salmon;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.form-box .input-group{
+    margin-bottom: 15px;
+}
+
+.form-box .input-group label{
+    color: #3d3d3d;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-box .input-group input{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+}
+
+.form-box .input-group input:focus{
+    border-color: rgb(107, 81, 32);
+
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-box .input-group button{
+    width: 140px;
+    height: 30px;
+    background-color: rgb(48, 71, 48);
+    color: aliceblue;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
