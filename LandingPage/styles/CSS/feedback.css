@@ -56,3 +56,27 @@
     color: var(--color-primary-6);
 
 }
+
+@media screen and (max-width:720px){
+    .depoimentos{
+        flex-direction: column;
+    }
+    .depoimentos-chef{
+        width: 80%;
+    }
+    .feedback{
+        flex-direction: column;
+    }
+    .area-feedbacks{
+        width: 90%;
+    }
+    .section-title{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .setion-subtitle{
+        font-size: 2rem;
+        text-align: center;
+        width: 90%;
+    }
+}
